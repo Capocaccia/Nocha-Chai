@@ -1,1 +1,1 @@
-console.log('Thanks for downloading')
+console.log('Thanks for downloading');

@@ -1,5 +1,6 @@
 var should = require("chai").should();
 var Animal = require(process.cwd() + '/lib/Animal');
+var cp = require('child_process');
 
 describe('Animal', function(){
   describe('constructor', function(){
@@ -45,6 +46,12 @@ describe('#updateHealthStats()', function(){
     animal.updateHealthStats();
     animal.health.should.not.equal(health);
   })
+})
+
+describe('CLI', function(){
+  it('should thank me for downloading'){
+    //execute node app.js then check output
+  }
 })
 
 describe('Array', function(){
