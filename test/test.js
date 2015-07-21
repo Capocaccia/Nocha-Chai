@@ -50,7 +50,7 @@ describe('#updateHealthStats()', function(){
 })
 
 describe('number', function(){
-  it('should check to see if the number ', function(){
+  it('should check to see if the number === itself ', function(){
     var num = new numbers(num);
     num.should.equal(num);
   })
