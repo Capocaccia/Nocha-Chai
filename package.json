@@ -4,7 +4,8 @@
   "description": "Node, Mocha, Chai",
   "main": "app.js",
   "scripts": {
-    "test": "istanbul cover _mocha --report lcovonly -- -R spec"
+    "test": "istanbul cover _mocha --report lcovonly -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
