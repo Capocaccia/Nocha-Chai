@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log('Thanks for downloading');
+console.log('Thanks for downloading my app!');
