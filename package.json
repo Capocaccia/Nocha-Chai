@@ -4,7 +4,7 @@
   "description": "Node, Mocha, Chai",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Capocaccia/Nocha-Chai#readme",
   "devDependencies": {
     "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2"
   }
 }
