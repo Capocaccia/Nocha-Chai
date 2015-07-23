@@ -3,3 +3,6 @@
 [![devDependency Status](https://david-dm.org/capocaccia/Nocha-Chai/dev-status.svg)](https://david-dm.org/capocaccia/Nocha-Chai#info=devDependencies) [![Dependency Status](https://david-dm.org/capocaccia/Nocha-Chai.svg)](https://david-dm.org/capocaccia/Nocha-Chai) [![NSS Cohort 9](https://img.shields.io/badge/NSS-Cohort--9-ff69b4.svg)](http://www.nashvillesoftwareschool.com)
 
 Node, Mocha, Chai
+
+
+#practicing my testing with Mocha, Travis, David, and Code Climate
